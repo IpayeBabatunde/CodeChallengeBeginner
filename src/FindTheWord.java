@@ -5,7 +5,7 @@ public class FindTheWord {
         String string = "I love Code Academy";
         String Keyword = "love";
 
-        Boolean found = Arrays.asList(string.split(" ")).contains(Keyword);
+        boolean found = Arrays.asList(string.split(" ")).contains(Keyword);
         if (found) {
             System.out.println(Keyword);
         }
